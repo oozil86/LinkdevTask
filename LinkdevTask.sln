@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmploymentApp", "EmploymentApp", "{1E90B600-D972-4226-B198-4D650B0BC72F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmploymentApp.Core", "EmploymentApp.Core", "{28989B89-D1BA-4401-B61E-065C7ED3F4D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmploymentApp.Infra", "EmploymentApp.Infra", "{9173D27F-8103-4DDB-A9EC-DF83CC2CD107}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentApp.Contracts", "EmploymentApp\EmploymentApp.Core\App.Contracts\EmploymentApp.Contracts.csproj", "{76A3EF19-B37F-4990-9189-9C670B1C3561}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentApp.Domain", "EmploymentApp\EmploymentApp.Core\App.Domain\EmploymentApp.Domain.csproj", "{6A22B608-DC58-42F5-8AC9-3698A4B8C369}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentApp.Services", "EmploymentApp\EmploymentApp.Core\App.Services\EmploymentApp.Services.csproj", "{6369BC3F-5992-4169-ABB2-F04D59F4C47A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentApp.Services.Abstractions", "EmploymentApp\EmploymentApp.Core\App.Services.Abstractions\EmploymentApp.Services.Abstractions.csproj", "{B8043E25-E091-4A6B-B7B3-FCED7DEFC1BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentApp.Persentation", "EmploymentApp\EmploymentApp.Infra\EmploymentApp.Persentation\EmploymentApp.Persentation.csproj", "{0AC14B57-0880-4651-B058-AB0A4BA30800}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentApp.Persistence", "EmploymentApp\EmploymentApp.Infra\EmploymentApp.Persistence\EmploymentApp.Persistence.csproj", "{B9169C90-FEA8-4B15-A943-B99F7B2DBDCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linkdev-Task", "LinkdevTask\Linkdev-Task.csproj", "{4E592C29-81BD-42A4-ABB4-0BC220C0F85D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A3EF19-B37F-4990-9189-9C670B1C3561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A3EF19-B37F-4990-9189-9C670B1C3561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A3EF19-B37F-4990-9189-9C670B1C3561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A3EF19-B37F-4990-9189-9C670B1C3561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A22B608-DC58-42F5-8AC9-3698A4B8C369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A22B608-DC58-42F5-8AC9-3698A4B8C369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A22B608-DC58-42F5-8AC9-3698A4B8C369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A22B608-DC58-42F5-8AC9-3698A4B8C369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6369BC3F-5992-4169-ABB2-F04D59F4C47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6369BC3F-5992-4169-ABB2-F04D59F4C47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6369BC3F-5992-4169-ABB2-F04D59F4C47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6369BC3F-5992-4169-ABB2-F04D59F4C47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8043E25-E091-4A6B-B7B3-FCED7DEFC1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8043E25-E091-4A6B-B7B3-FCED7DEFC1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8043E25-E091-4A6B-B7B3-FCED7DEFC1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8043E25-E091-4A6B-B7B3-FCED7DEFC1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC14B57-0880-4651-B058-AB0A4BA30800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC14B57-0880-4651-B058-AB0A4BA30800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC14B57-0880-4651-B058-AB0A4BA30800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC14B57-0880-4651-B058-AB0A4BA30800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9169C90-FEA8-4B15-A943-B99F7B2DBDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9169C90-FEA8-4B15-A943-B99F7B2DBDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9169C90-FEA8-4B15-A943-B99F7B2DBDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9169C90-FEA8-4B15-A943-B99F7B2DBDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E592C29-81BD-42A4-ABB4-0BC220C0F85D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E592C29-81BD-42A4-ABB4-0BC220C0F85D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E592C29-81BD-42A4-ABB4-0BC220C0F85D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E592C29-81BD-42A4-ABB4-0BC220C0F85D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28989B89-D1BA-4401-B61E-065C7ED3F4D9} = {1E90B600-D972-4226-B198-4D650B0BC72F}
+		{9173D27F-8103-4DDB-A9EC-DF83CC2CD107} = {1E90B600-D972-4226-B198-4D650B0BC72F}
+		{76A3EF19-B37F-4990-9189-9C670B1C3561} = {28989B89-D1BA-4401-B61E-065C7ED3F4D9}
+		{6A22B608-DC58-42F5-8AC9-3698A4B8C369} = {28989B89-D1BA-4401-B61E-065C7ED3F4D9}
+		{6369BC3F-5992-4169-ABB2-F04D59F4C47A} = {28989B89-D1BA-4401-B61E-065C7ED3F4D9}
+		{B8043E25-E091-4A6B-B7B3-FCED7DEFC1BA} = {28989B89-D1BA-4401-B61E-065C7ED3F4D9}
+		{0AC14B57-0880-4651-B058-AB0A4BA30800} = {9173D27F-8103-4DDB-A9EC-DF83CC2CD107}
+		{B9169C90-FEA8-4B15-A943-B99F7B2DBDCF} = {9173D27F-8103-4DDB-A9EC-DF83CC2CD107}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA80F68D-0003-4481-91C5-3D5F610B33A2}
+	EndGlobalSection
+EndGlobal
